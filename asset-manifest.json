@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/livechat/static/css/main.1333f8f2.css",
+    "main.js": "/livechat/static/js/main.299e5597.js",
+    "static/js/787.5c1eaa7a.chunk.js": "/livechat/static/js/787.5c1eaa7a.chunk.js",
+    "static/media/fa-solid-900.ttf": "/livechat/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/livechat/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/livechat/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/livechat/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/livechat/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/logo.jpg": "/livechat/static/media/logo.e81052471bb1d1639f11.jpg",
+    "static/media/girl.jpg": "/livechat/static/media/girl.55910f1a5fcf319b5bc9.jpg",
+    "static/media/fa-regular-400.woff2": "/livechat/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/boy.jpg": "/livechat/static/media/boy.82bad982f5f16e20030f.jpg",
+    "static/media/size.jpeg": "/livechat/static/media/size.36be183b1dc204a1fb98.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/livechat/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/livechat/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/livechat/index.html",
+    "main.1333f8f2.css.map": "/livechat/static/css/main.1333f8f2.css.map",
+    "main.299e5597.js.map": "/livechat/static/js/main.299e5597.js.map",
+    "787.5c1eaa7a.chunk.js.map": "/livechat/static/js/787.5c1eaa7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1333f8f2.css",
+    "static/js/main.299e5597.js"
+  ]
+}
