@@ -3,7 +3,9 @@ import {Navigate, RouterProvider, createBrowserRouter} from "react-router-dom"
 import Layout from './Layout'
 import Register from './Register'
 import Login from './Login'
+
 import NotFound from './NotFound'
+
 import Profile from './Profile'
 import jwt_decode from "jwt-decode"
 import Home from './Home'
