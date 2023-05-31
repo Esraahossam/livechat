@@ -7,7 +7,7 @@ export default function LiveChat() {
   return (
     <>
     <div className='d-flex justify-content-center'>
-    <div className="card m-5 p-2" style={{width: "25rem",height:"30rem"}}>
+    <div className="card m-5 p-2" style={{width: "30rem",height:"30rem"}}>
     <div className='d-flex head'>
     <img src={y} className="card-img-top rounded-circle p-2" alt="..."/>
     <p className='p-4 fw-bold'>Chat with Alex</p> 
@@ -37,7 +37,7 @@ export default function LiveChat() {
 </div>
 
 {/* cardtwo */}
-<div className="card m-5 p-2" style={{width: "25rem",height:"30rem"}}>
+<div className="card m-5 p-2" style={{width: "30rem",height:"30rem"}}>
     <div className='d-flex head'>
     <img src={x} className="card-img-top rounded-circle p-2" alt="..."/>
     <p className='p-4 fw-bold'>Chat with Maria</p> 
