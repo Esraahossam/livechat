@@ -1,0 +1,68 @@
+.card-img-top{
+    width:70px; 
+ }
+ .card{
+     border-color: black;
+ }
+ .head{
+    background-color:rgba(46, 139, 86, 0.781);
+ }
+ .card-text{
+     width: 250px;
+     height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color:rgba(46, 139, 86, 0.781); ;
+ }
+ .card-texttwo{
+     width: 300px;
+     height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color:rgba(46, 139, 86, 0.781);;
+ }
+ .list-group-item {
+    color: rgba(169, 169, 169, 0.767); 
+ }
+ .btun{
+     width: 200px;
+     height: 30px;
+     border-radius: 30px;
+     border-color: rgba(46, 139, 86, 0.781);;
+ }
+ .pink{
+     color:rgba(46, 139, 86, 0.781); ;
+ }
+ .online{
+   border: 1px solid black; 
+   position: relative; 
+   height: 500px;
+  width: 400px;
+   margin-top: 30px;
+ }
+ .spannn::after{
+ content: "";
+ width: 10px;
+ height: 10px;
+ border-radius: 50%;
+ left: 90px;
+ top: 43px;
+ background-color: rgb(67, 131, 4);
+ position: absolute;
+ }
+ .two{
+     position: relative;
+ }
+ .spantwo::after{
+     content: "";
+     width: 10px;
+     height: 10px;
+     border-radius: 50%;
+     left: 90px;
+     top: 43px;
+     background-color: rgb(67, 131, 4);
+     position: absolute;
+     }
+ 

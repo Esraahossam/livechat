@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import logo from "./Assets/logo.jpg"
+import "./Navbar.css"
 export default function Navbar({userData,Logout}) {
   return (
     <div>
-    <nav className="navbar navbar-expand-lg bg-light mt-5">
+    <nav className="navbar navbar-expand-lg bg-light">
   <div className="container">
     <div className='col-3'>
-    <span className='rounded-circle'><img src={logo} className='w-25'/></span>
-    <Link className="navbar-brand fw-bold" to="/">Ecommerce</Link>
+    {/* <span className='rounded-circle'><img src={logo} className='w-25'/></span> */}
+    <Link className="navbar-brand fw-bold text-success" to="/">Ecommerce</Link>
     </div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -20,7 +21,6 @@ export default function Navbar({userData,Logout}) {
         <li className="nav-item fw-bold fs-5 ">
           <NavLink  className={({isActive})=>isActive==true?'nav-link active':'nav-link'} to="Home">Home</NavLink>
         </li>
-
         <li className="nav-item fw-bold fs-5">
           <NavLink className={({isActive})=>isActive==true?'nav-link active':'nav-link'}  to="LiveChat">LiveChat</NavLink>
         </li>
@@ -29,19 +29,19 @@ export default function Navbar({userData,Logout}) {
 
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         {userData?   <>
-      <li className='nav-item py-3'>
+      {/* <li className='nav-item py-3'>
       <i className='fa-brands fa-facebook mx-2'></i>
       <i className='fa-brands fa-twitter mx-2'></i>
       <i className='fa-brands fa-spotify mx-2'></i>
       <i className='fa-brands fa-youtube mx-2'></i>
 
-     </li>
+     </li> */}
      {/* if userdata contains data  */}
      <li className="nav-item fw-bold fs-5">
           <NavLink  className={({isActive})=>isActive==true?'nav-link active':'nav-link'} to="Profile">Profile</NavLink>
         </li>
         <li className='nav-item fw-bold fs-5'>
-          <span className='nav-link' onClick={Logout} >Logout</span>
+          <span className='nav-link logout' onClick={Logout} >Logout</span>
         </li>
         {/* if not contains */}
       </>: <> 

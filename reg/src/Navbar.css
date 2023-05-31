@@ -1,0 +1,9 @@
+.logout{
+    cursor: pointer;
+}
+.nav-link:hover{
+color: rgb(35, 116, 35);
+}
+.navbar-nav .nav-link.active:hover{
+    color: rgb(35, 116, 35);   
+}

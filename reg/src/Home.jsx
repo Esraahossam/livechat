@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import "./Home.css"
 
 export default function Home() {
 let [productsList,setProduct]=useState([]);
@@ -20,7 +21,7 @@ getAllProducts()
           
       return  <div key={product._id} className='col-md-2'>
            <div className='product '>
-       <img src={product.imageCover} className='w-100' alt=''/>
+       <img src={product.imageCover} className='w-100 homepic' alt=''/>
        <span className='text-success'>{product.category.name}</span>
        <h2 className='h6 fw-bold'>{product.title.split(" ").slice(0,2).join(" ")}</h2>
        <div className='d-flex justify-content-between'>

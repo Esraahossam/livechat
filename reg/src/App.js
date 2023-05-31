@@ -7,12 +7,11 @@ import NotFound from './NotFound'
 import Profile from './Profile'
 import jwt_decode from "jwt-decode"
 import Home from './Home'
-import LiveChat from './Live Chat/LiveChat'
+import LiveChat from './Chat/LiveChat'
+
 export default function App() {
 
   let [userData,setUserData]=useState(null)
-
-
 
 // getdata from localstorage
 useEffect(()=>{
@@ -58,9 +57,9 @@ else{
 let routes=createBrowserRouter([
  {path:"",element:<Layout Logout={Logout} userData={userData}/>,children:[
 {path:"Home",element:<ProtectRouting><Home/></ProtectRouting>},
+{path:"LiveChat",element:<ProtectRouting><LiveChat/></ProtectRouting>},
 {index:true,element:<ProtectedRouting2><Register/></ProtectedRouting2>},
 {path:"Login",element:<Login saveUserData={saveUserData}/>},
-{path:"LiveChat",element:<ProtectRouting><LiveChat/></ProtectRouting>},
 {path:"Profile",element:<ProtectRouting><Profile userData={userData}/></ProtectRouting>},
 {path:"*",element:<Register/>},
  ]}

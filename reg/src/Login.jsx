@@ -75,7 +75,7 @@ localStorage.setItem("token",myData.data.token)
       
        {loading?<button type='button' className='btn btn-success'>
         <i className='fa-solid fa-spinner fa-spin text-white'></i>
-       </button>: <button  disabled={!formik.isValid}type='submit' className='btn btn-success'>Login</button>}
+       </button>: <button  disabled={!formik.isValid}type='submit' className='btn btn-success mb-5'>Login</button>}
       </form>
     </div>
   )

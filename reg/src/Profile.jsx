@@ -6,8 +6,8 @@ export default function Profile({userData}) {
     <div>
        {/* condition */}
 
-      <h2 className='p-4'>Hello {userData?.name}</h2>
-      <h3>Welcome in Ecommerce project</h3>
+      <h2 className='p-4 '>Hello {userData?.name}</h2>
+      <h3 className='pb-5'>Welcome in Ecommerce project</h3>
     </div>
   )
 }

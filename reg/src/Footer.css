@@ -1,6 +1,11 @@
 
 .last{
- /* background-color:black ; */
- height: 50px;
  padding-top: 10px;
+}
+.icon{
+  width: 30px;
+ padding: 7px;
+color: #fff;
+cursor: pointer;
+   
 }
